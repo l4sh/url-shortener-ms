@@ -1,0 +1,17 @@
+{
+  "name": "url-shortener-ms",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice",
+  "main": "index.js",
+  "repository": "https://github.com/l4sh/url-shortener-ms",
+  "author": "Luis Salazar",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "mongodb": "^2.2.30",
+    "restify": "^5.0.0"
+  }
+}
