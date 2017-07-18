@@ -146,8 +146,8 @@ var server = restify.createServer();
 // Routes
 server.get('/', index);
 server.get('/:shortId', resolveShortened);
-server.get('/.*', resolveShortened);
 server.get('/new/.*', newShortenedLink);
+server.get('/.*', resolveShortened);
 
 // Connect to database
 MongoClient.connect(mongoUrl, function(err, client) {
